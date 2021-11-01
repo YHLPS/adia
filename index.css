@@ -3,8 +3,8 @@ body {
   /* pink? */
 }
 
-.rounded-12 {
-  border-radius: 12rem;
+.rounded-main {
+  border-radius: 7rem;
 }
 /* feature */
 .b-example-divider {
