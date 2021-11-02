@@ -20,13 +20,17 @@ body {
   background-size: contain;
   opacity: 0.95;
 
-  color: yellow;
+  color: mistyrose;
 
   /* pink? */
 }
 
+.font-size-130{
+  font-size: 130%;
+}
+
 .bg-color-yellow{
-  background-color: yellow;
+  background-color: mistyrose;
 }
 
 .previous-events > div {
