@@ -15,36 +15,6 @@
   <link href="assets/css/bootstrap.rtl.min.css" rel="stylesheet">
   <link href="assets/css/bootstrap-icons.css" rel="stylesheet">
 
-  <style>
-    .bd-placeholder-img {
-      font-size: 1.125rem;
-      text-anchor: middle;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      user-select: none;
-    }
-
-    @media (min-width: 768px) {
-      .bd-placeholder-img-lg {
-        font-size: 3.5rem;
-      }
-    }
-
-    body {
-      background-image: url("assets/img/IMG-20211031-WA0009.jpg");
-      /* Center the image */
-      background-position: top;
-      /* Do repeat the image */
-      background-repeat: repeat-y;
-      /* Resize the background image to cover the entire container */
-      background-size: contain;
-      opacity: 0.95;
-
-      color: aliceblue;
-    }
-  </style>
-
-
   <!-- Custom styles for this template -->
   <link href="index.css" rel="stylesheet">
 </head>
@@ -74,16 +44,17 @@
     <main>
 
       <!-- title -->
-      <h2 class="my-2 mt-5 display-4">מדליקים את האור- מעגלי גאולה</h2>
+      <h2 class="my-2 mt-5 display-4">מדליקים את האור<span class="d-none d-md-inline">- מעגלי גאולה</span></h2>
 
       <p class="mb-1 col-md-8 display-7">החזרה לארץ שפע- מעגל שירה מרגש</p>
       <p class="col-md-8 display-8">עדיה מארחת את דן קליין וחברים</p>
 
       <!-- list-group -->
+      <!-- רקע צהוב,ורוד -->
       <div class="list-group my-2 mx-3 display-8">
 
         <!-- calendar -->
-        <a class="list-group-item d-flex gap-3 py-3" aria-current="true">
+        <a class="list-group-item d-flex gap-3 py-3 bg-color-yellow" aria-current="true">
           <div class="d-flex gap-2 w-100 justify-content-between">
             <div>
               <span class="pt-1 form-checked-content">
@@ -106,7 +77,7 @@
 
 
         <!-- geo -->
-        <a href="geo:32.0629000,34.78350" class="list-group-item d-flex gap-3 py-3" aria-current="true">
+        <a href="geo:32.0629000,34.78350" class="list-group-item d-flex gap-3 py-3 bg-color-yellow" aria-current="true">
           <i class="bi bi-geo-alt rounded-circle flex-shrink-0"></i>
           <div class="d-flex gap-2 w-100 justify-content-between">
             <div>
@@ -124,7 +95,7 @@
           </div>
         </a>
 
-        <a href="tel:+972533410669" class="list-group-item d-flex gap-3 py-3" aria-current="true">
+        <a href="tel:+972533410669" class="list-group-item d-flex gap-3 py-3 bg-color-yellow" aria-current="true">
           <i class="bi bi-phone rounded-circle flex-shrink-0"></i>
           <div class="d-flex gap-2 w-100 justify-content-between">
             <div>
@@ -140,7 +111,7 @@
 
       </div>
 
-      <div class="my-3 mx-auto rounded-4 text-white p-3 col-md-9 display-8">
+      <div class="my-3 mx-auto rounded-4 p-3 col-md-9 display-8">
         <figure class="mb-0">
           <blockquote class="">
             <p class="mb-1">
@@ -151,7 +122,7 @@
             </p>
             <hr>
             <p class="mb-1">
-              <span class="ms-3">הפלא במעגל שירה הוא שהנס זמין ואפשרי תמיד.</span><br><span>גם ברגעים שלא חשבנו להגיע או שהנפש רוצה להתמקד בחוויה אחרת.</span><br>
+              <span class="ms-3">הפלא במעגל שירה הוא שהנס זמין ואפשרי תמיד.</span><br><br>
               <span>הלב בסוף שר בדרכו. תמיד</span><br>
               <span>אנחנו פשוט מסכימים להיות</span><br>
               נוכחים<br>
@@ -164,11 +135,11 @@
       </div>
 
 
-      <!-- grid -->
+      <!-- על המנחה -->
       <div class="py-4 mb-1">
         <h2 class="pb-1">מאירועים קודמים</h2>
 
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5 justify-content-around pt-3">
+        <div class="previous-events row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5 justify-content-around pt-3">
           <!-- <div class="col d-flex align-items-start">
                   <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"/></svg>
                   <div>
@@ -177,6 +148,7 @@
                   </div>
                 </div> -->
           <div class="col d-flex align-items-start">
+            <span class="display-6 my-2 mt-3">04/2021</span>
             <img src="assets/img/IMG-20211023-WA0031.jpg" class="img-fluid" alt="" srcset="">
           </div>
 
@@ -199,9 +171,10 @@
         </div>
       </div>
 
+      <!--  -->
       <!-- img card next -->
       <div class="row g-0 border rounded-5 overflow-hidden flex-md-row my-2 shadow-sm h-md-250 position-relative">
-        <div class="col p-4 d-flex flex-column position-static">
+        <div class="col-12 p-4 d-flex flex-column position-static">
           <h3 class="mb-0">על המנחה</h3>
           <div class="d-flex flex-row fs-4 my-2">
             <a href="https://www.facebook.com/profile.php?id=1385284505">
@@ -224,21 +197,15 @@
             <div class="ms-3">זמרת, מפיקה ומנחה מעגלי שירה וקבלות שבת</div>
           </div>
 
-          <p class="card-text mb-auto">יזמת חברתית, מקימה ויועצת לקהילות בהקמה</p>
+          <p class="card-text">יזמת חברתית, מקימה ויועצת לקהילות בהקמה</p>
+          
+          <p class="card-text mb-auto">מורה מוסמכת למחול וזומבה פיטנס</p>
         </div>
-        <div class="col">
+        <div class="col-12">
           <img src="assets/img/IMG-20211023-WA0032.jpg" alt="uru- unite & rise up - מעגל האהבה הגדול" srcset=""
             class="img-fluid px-2 py-2 my-4 text-center rounded-2 shadow-lg">
         </div>
 
-        <!-- <div class="col-auto d-none d-lg-block">
-          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img"
-            aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-              dy=".3em">Thumbnail</text>
-          </svg>
-        </div> -->
       </div>
 
       <!-- half and half -->
@@ -257,15 +224,6 @@
 
         </div>
       </div>
-
-      <!-- jumbotron
-      <div class="h-100 p-5 text-white bg-dark rounded-3 my-3">
-        <h2>Change the background</h2>
-        <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix
-          and match with additional component themes and more.</p>
-        <button class="btn btn-outline-light" type="button">Example button</button>
-      </div> -->
-
 
       <h2 class="pb-1">לקוחות ממליצים</h2>
 
