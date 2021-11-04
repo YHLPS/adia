@@ -1,15 +1,5 @@
-.display-7{
-  font-size: 2rem;
-}
-.display-8{
-  font-size: 1.5rem;
-}
-.display-9{
-  font-size: 1rem;
-}
-
 body {
-  background-color: mistyrose;
+  background-color: white;
 
   background-image: url("assets/img/IMG-20211031-WA0009.jpg");
   /* position the image */
@@ -25,13 +15,53 @@ body {
   /* pink? */
 }
 
+.display-7{
+  font-size: 2rem;
+}
+.display-8{
+  font-size: 1.5rem;
+}
+.display-9{
+  font-size: 1rem;
+}
+
+.px-6 {
+  padding-left:4.5rem!important;
+  padding-right:4.5rem!important
+ }
+
+ .px-7 {
+  padding-left:6rem!important;
+  padding-right:6rem!important
+ }
+
+
 .font-size-130{
   font-size: 130%;
 }
 
-.bg-color-yellow{
-  background-color: mistyrose;
+.about-host, .bg-color, .carousel{
+  background-color: lightpink;
+  color: black;
 }
+
+/* .carousel-height, .carousel-height > .carousel-item {
+  height: 300px;
+}
+ */
+.carousel {
+  max-height: 700px;
+}
+
+.carousel .carousel-item .container {
+  width: 100%;
+  height: auto;
+  margin-bottom: 45px;
+  margin-top: 27px;
+  text-align: center;
+  vertical-align: middle;
+}
+
 
 .previous-events > div {
   flex-direction: column;
@@ -42,9 +72,6 @@ body {
   margin-right: auto;
 }
 
-.rounded-main {
-  border-radius: 7rem;
-}
 /* feature */
 .b-example-divider {
   height: 0.4rem;
@@ -97,6 +124,8 @@ body {
 
 .rounded-4 { border-radius: .5rem; }
 .rounded-5 { border-radius: 1rem; }
+.rounded-main { border-radius: 7rem; }
+
 
 .text-shadow-1 { text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25); }
 .text-shadow-2 { text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25); }
